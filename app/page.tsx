@@ -51,7 +51,7 @@ export default function Page() {
 
   return (
     <main data-lk-theme="default" className="h-full grid content-center bg-[var(--lk-bg)]">
-      <h1 className="text-3xl font-bold text-center my-8">Rajesh's AI Assistant</h1>
+      <h1 className="text-3xl font-bold text-center my-8">Rajesh&apos;s AI Assistant</h1>
       <RoomContext.Provider value={room}>
         <div className="lk-room-container max-w-[1024px] w-[90vw] mx-auto max-h-[90vh]">
           <SimpleVoiceAssistant onConnectButtonClicked={onConnectButtonClicked} />
